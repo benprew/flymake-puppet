@@ -1,8 +1,7 @@
-;;; flymake-puppet.el
+;;; flymake-puppet.el --- An Emacs flymake handler for syntax-checking puppet using puppet-lint
 
 ;; Copyright 2013 Ben Prew
 
-;; Description: An Emacs flymake handler for syntax-checking puppet using puppet-lint
 ;; Author: Ben Prew
 ;; URL: https://github.com/benprew/flymake-puppet
 ;; Version: 1.0.0
