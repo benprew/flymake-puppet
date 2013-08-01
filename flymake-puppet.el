@@ -1,3 +1,14 @@
+;;; flymake-puppet.el
+
+;; Copyright 2013 Ben Prew
+
+;; Description: An Emacs flymake handler for syntax-checking puppet using puppet-lint
+;; Author: Ben Prew
+;; URL: https://github.com/benprew/flymake-puppet
+;; Version: 1.0.0
+;; Package-Requires: ((flymake-easy "0.9"))
+
+
 (require 'flymake-easy)
 
 (defconst flymake-puppet-err-line-patterns
@@ -21,3 +32,5 @@
                      "pp"))
 
 (provide 'flymake-puppet)
+
+;;; flymake-puppet.el ends here
