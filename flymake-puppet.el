@@ -17,9 +17,12 @@
 (defvar flymake-puppet-executable "puppet-lint"
   "The executable to use for puppet-lint")
 
+(defvar flymake-puppet-options nil "Puppet-lint options")
+
 (defun flymake-puppet-command (filename)
   "Construct a command that flymake can use to check puppet source."
-      (list flymake-puppet-executable filename))
+  (append (list flymake-puppet-executable) flymake-puppet-options
+          (list filename)))
 
 ;;;###autoload
 (defun flymake-puppet-load ()
