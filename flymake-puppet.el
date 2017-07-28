@@ -1,4 +1,4 @@
-;;; flymake-puppet.el --- An Emacs flymake handler for syntax-checking puppet using puppet-lint
+;;; flymake-puppet.el --- Flymake handler using puppet-lint
 
 ;; Copyright 2013 Ben Prew
 
@@ -19,6 +19,11 @@
 
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+
+;; This package implements a flymake handler for syntax-checking
+;; puppet using puppet-lint.
 
 ;;; Code:
 
