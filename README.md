@@ -1,3 +1,5 @@
+## Deprecated in favor of: [flycheck-puppet](http://www.flycheck.org/en/latest/community/people.html#puppet)
+
 flymake-puppet.el
 ==========================
 
